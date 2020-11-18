@@ -1,0 +1,95 @@
+*{
+  margin:0;
+}
+html,body{
+  height:100%;
+}
+.item{
+  background-color: white;
+  color: black;
+  height:150px;
+  width:150px;
+  border-radius:10px;
+  border:2px solid black;
+  box-shadow:2px 2px 2px black;
+  margin-top:10px;
+  margin-left:8px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.item img{
+  height: 100px;
+  width:120px;
+}
+
+.fender:hover {
+  background-color: red;
+  color: white
+}
+
+.yamaha:hover {
+  background-color: green;
+  color: white
+}
+
+.maton:hover {
+  background-color: blue;
+  color: white
+}
+.popUp{
+  height:100%;
+  width:100%;
+  background-color:rgba(193, 193, 193, 0.66);
+  position: absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.popUp img{
+  height:100px;
+}
+
+.cart{
+  float: right;
+  height:150px;
+  width:150px;
+  border-radius:10px;
+  border:2px solid black;
+  box-shadow:2px 2px 2px black;
+  margin-top: 50px;
+  margin-left:8px;
+  margin-right:70px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color: yellow;
+}
+.cart img{
+  height: 100px;
+  width:120px;
+  
+}
+.button {
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+.form {
+  margin-top:20px;
+  margin-right:40px;
+  float:right;
+  clear:right;
+}
